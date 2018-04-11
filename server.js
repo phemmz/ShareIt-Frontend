@@ -1,9 +1,8 @@
-var express = require('express');
-var path = require('path');
+const express = require('express');
 
-app = express();
-app.use(express.static(__dirname + "/dist"));
+const app = express();
+app.use(express.static(`${__dirname}/dist`));
 
-var port = process.env.PORT || 9000;
+const port = process.env.PORT || 9000;
 app.listen(port);
-console.log('server started '+ port);
+console.log(`server started ${port}`);

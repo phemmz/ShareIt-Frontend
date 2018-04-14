@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/phemmz/ShareIt-Frontend.svg?branch=develop)](https://travis-ci.org/phemmz/ShareIt-Frontend) [![Coverage Status](https://coveralls.io/repos/github/phemmz/ShareIt-Frontend/badge.svg?branch=develop)](https://coveralls.io/github/phemmz/ShareIt-Frontend?branch=master)

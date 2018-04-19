@@ -1,1 +1,6 @@
-<div class="homepage">Shareit</div>
+<div id="home">
+  <div class="homepage" v-if="loading">
+    <Loader></Loader>
+  </div>
+  <NavBar v-else></NavBar>
+</div>

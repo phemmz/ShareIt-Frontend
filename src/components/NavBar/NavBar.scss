@@ -1,0 +1,29 @@
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.nav__container {
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+
+  li:not(.nav__item__logo) {
+    margin-right: 3rem;
+  }
+}
+
+.nav__item__logo {
+  margin-right: auto;
+  margin-left: 3rem;
+  font-family: 'Monoton', cursive;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 200;
+}
+

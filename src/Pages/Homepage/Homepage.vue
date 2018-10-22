@@ -5,12 +5,14 @@
 <script>
 import Loader from '@/components/Loader/Loader';
 import NavBar from '@/components/NavBar/NavBar';
+import ContentTabs from '@/components/ContentTabs/ContentTabs';
 
 export default {
   name: 'Homepage',
   components: {
 		Loader,
-		NavBar,
+    NavBar,
+    ContentTabs,
   },
   data() {
     return {
